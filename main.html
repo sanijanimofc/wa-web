@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="" type="image/x-icon">
+  <style>
+    body {
+      background-image: url("https://wallpapercave.com/w/wp13424917.jpg");
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      color: white;
+      flex-direction: column;
+    }
+
+    .button-container {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h3 {
+      margin-top: -40px;
+      opacity: 0;
+      animation: fadeIn 3s forwards;
+    }
+
+    .button {
+      width: 140px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 0px 15px;
+      background-color: red;
+      border-radius: 10px;
+      border: none;
+      color: white;
+      position: relative;
+      cursor: pointer;
+      font-weight: 900;
+      transition-duration: .2s;
+      background: linear-gradient(0deg, #000, #272727);
+      text-decoration: none;
+      margin-bottom: 10px;
+    }
+
+    .button:before, .button:after {
+      content: '';
+      position: absolute;
+      left: -2px;
+      top: -2px;
+      border-radius: 10px;
+      background: linear-gradient(45deg, #ffffff, #ffffff, #000000,#000000, #000000);
+      background-size: 400%;
+      width: calc(100% + 4px);
+      height: calc(100% + 4px);
+      z-index: -1;
+      animation: steam 10s linear infinite;
+    }
+
+    .button:after {
+      filter: blur(50px);
+    }
+
+    .button span {
+      z-index: 1;
+    }
+
+    @keyframes steam {
+      0% { background-position: 0 0; }
+      50% { background-position: 400% 0; }
+      100% { background-position: 0 0; }
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+
+    footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: #222;
+      color: #fff;
+      padding: 10px 0;
+      text-align: center;
+      font-size: 14px;
+    }
+  </style>
+
+  <!-- JSON-LD Schema.org structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "url": "https://railway.app",
+    "logo": "https://files.catbox.moe/d2d02k.png"
+  }
+  </script>
+</head>
+<body>
+  <div class="button-container">
+    <h3>SANIJA MD SESSION SECTION</h3>
+    <a href="/qr" class="button" target="_blank"><span>QR-CODE</span></a>
+    <a href="/pair" class="button" target="_blank"><span>PAIRING-CODE</span></a>
+    <a href="https://github.com/sanijanimofc/sanija-md/fork" class="button" target="_blank"><span>FORK BOT</span></a>
+    <a href="https://www.whatsapp.com/channel/0029Vai5pJa5vK9zcGR1PX2f" class="button" target="_blank"><span>WA-CHANNEL</span></a>
+    <a href="https://www.youtube.com/@FutureTechwithSanija" class="button" target="_blank"><span>YOUTUBE</span></a>
+
+    <h5>YOU HAVE ERROR CLICK ERROR BUTTON</h5>
+    <a href="https://wa.me/94767858145?text=HAVE_ERROR_SANIJA_MD" class="button" target="_blank"><span>ERROR</span></a>
+
+    <h5>OWNER CONTACT</h5>
+    <a href="https://wa.me/94767858145?text=SANIJA" class="button" target="_blank"><span>OWNER</span></a>
+  </div>
+
+  <footer>
+    SANIJA MD &copy; <span id="currentYear"></span>
+  </footer>
+
+  <script>
+    // Automatically populate the year
+    document.getElementById("currentYear").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
