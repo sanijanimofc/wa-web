@@ -70,13 +70,13 @@ async function GIFTED_MD_PAIR_CODE(id, num, res) {
                     const md = "SANIJA-MD=" + stringSession;
                     const codeMessage = await sock.sendMessage(sock.user.id, { text: md });
 
-                    const desc = `*𝙳𝚘𝚗𝚝 𝚜𝚑𝚊𝚛𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚠𝚒𝚝𝚑 𝚊𝚗𝚢𝚘𝚗𝚎!! 𝚄𝚜𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚝𝚘 𝚌𝚛𝚎𝚊𝚝𝚎 SANIJA MD 𝚆𝚑𝚊𝚝𝚜𝚊𝚙𝚙 𝚄𝚜𝚎𝚛 𝚋𝚘𝚝.*\n\n ◦ *Github:* https://github.com/Mrrashmika/Queen_Anju-MD`;
+                    const desc = `*░▒▓█►─═ ᴅᴏɴ'ᴛ sʜᴇʀᴇ ᴛʜɪs ᴄᴏᴅᴇ ᴡɪᴛʜ ᴀɴʏᴏɴᴇ. ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs sᴇssɪᴏɴ ɪᴅ ᴛᴏ ᴄʀᴇᴀᴛᴇ sᴀɴɪᴊᴀ-ᴍᴅ ᴡʜᴀᴛsᴀᴘᴘ ᴜsᴇʀ ʙᴏ ═─◄█▓▒░*\n\n ◦ ▀▄▀▄▀▄ ɢɪᴛʜᴜʙ:* ʜᴛᴛᴘs://ɢɪᴛʜᴜʙ.ᴄᴏᴍ/sᴀɴɪᴊᴀɴɪᴍᴏғᴄ/sᴀɴɪᴊᴀ-ᴍᴅ ▄▀▄▀▄▀`;
                     await sock.sendMessage(sock.user.id, {
                         text: desc,
                         contextInfo: {
                             externalAdReply: {
                                 title: "SANIJA MD",
-                                thumbnailUrl: "https://files.catbox.moe/d2d02k.png",
+                                thumbnailUrl: "https://raw.githubusercontent.com/sanijanimofc/DATABASE/refs/heads/main/web/ALIVE%20SANIJA.png",
                                 sourceUrl: "https://www.whatsapp.com/channel/0029Vai5pJa5vK9zcGR1PX2f",
                                 mediaType: 1,
                                 renderLargerThumbnail: true,
@@ -92,11 +92,11 @@ async function GIFTED_MD_PAIR_CODE(id, num, res) {
                     logger.error(`Error uploading file: ${error.message}`);
                     const errorMessage = await sock.sendMessage(sock.user.id, { text: error.message });
                     await sock.sendMessage(sock.user.id, {
-                        text: `*𝙳𝚘𝚗𝚝 𝚜𝚑𝚊𝚛𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚠𝚒𝚝𝚑 𝚊𝚗𝚢𝚘𝚗𝚎!! 𝚄𝚜𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚝𝚘 𝚌𝚛𝚎𝚊𝚝𝚎 SANIJA MD 𝚆𝚑𝚊𝚝𝚜𝚊𝚙𝚙 𝚄𝚜𝚎𝚛 𝚋𝚘𝚝.*\n\n ◦ *Github:* https://github.com/Mrrashmika/Queen_Anju-MD`,
+                        text: `*░▒▓█►─═ ᴅᴏɴ'ᴛ sʜᴇʀᴇ ᴛʜɪs ᴄᴏᴅᴇ ᴡɪᴛʜ ᴀɴʏᴏɴᴇ. ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs sᴇssɪᴏɴ ɪᴅ ᴛᴏ ᴄʀᴇᴀᴛᴇ sᴀɴɪᴊᴀ-ᴍᴅ ᴡʜᴀᴛsᴀᴘᴘ ᴜsᴇʀ ʙᴏ ═─◄█▓▒░*\n\n ◦ ▀▄▀▄▀▄ ɢɪᴛʜᴜʙ:* ʜᴛᴛᴘs://ɢɪᴛʜᴜʙ.ᴄᴏᴍ/sᴀɴɪᴊᴀɴɪᴍᴏғᴄ/sᴀɴɪᴊᴀ-ᴍᴅ ▄▀▄▀▄▀`,
                         contextInfo: {
                             externalAdReply: {
                                 title: "SANIJA MD",
-                                thumbnailUrl: "https://files.catbox.moe/d2d02k.png",
+                                thumbnailUrl: "https://raw.githubusercontent.com/sanijanimofc/DATABASE/refs/heads/main/web/ALIVE%20SANIJA.png",
                                 sourceUrl: "https://www.whatsapp.com/channel/0029Vai5pJa5vK9zcGR1PX2f",
                                 mediaType: 2,
                                 renderLargerThumbnail: true,
