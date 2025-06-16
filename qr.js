@@ -72,13 +72,13 @@ var randomItem = selectRandomItem(items);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
                         let md = "SANIJA-MD=" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*𝙳𝚘𝚗𝚝 𝚜𝚑𝚊𝚛𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚠𝚒𝚝𝚑 𝚊𝚗𝚢𝚘𝚗𝚎!! 𝚄𝚜𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚝𝚘 𝚌𝚛𝚎𝚊𝚝𝚎 SANIJA MD 𝚆𝚑𝚊𝚝𝚜𝚊𝚙𝚙 𝚄𝚜𝚎𝚛 𝚋𝚘𝚝.*\n\n ◦ *Github:* https://github.com/`;
+                        let desc = `*ᴅᴏɴ'ᴛ sʜᴇʀᴇ ᴛʜɪs ᴄᴏᴅᴇ ᴡɪᴛʜ ᴀɴʏᴏɴᴇ. ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs sᴇssɪᴏɴ ɪᴅ ᴛᴏ ᴄʀᴇᴀᴛᴇ sᴀɴɪᴊᴀ-ᴍᴅ ᴡʜᴀᴛsᴀᴘᴘ ᴜsᴇʀ ʙᴏᴛ*\n\n ◦ɢɪᴛʜᴜʙ:* https://github.com/sanijanimofc/sanija-md`;
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
 title: "SANIJA MD",
-thumbnailUrl: "https://files.catbox.moe/d2d02k.png",
+thumbnailUrl: "https://telegra.ph/file/e069027c2178e2c7475c9.jpg",
 sourceUrl: "https://www.whatsapp.com/channel/0029Vai5pJa5vK9zcGR1PX2f",
 mediaType: 1,
 renderLargerThumbnail: true
@@ -88,13 +88,13 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*𝙳𝚘𝚗𝚝 𝚜𝚑𝚊𝚛𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚠𝚒𝚝𝚑 𝚊𝚗𝚢𝚘𝚗𝚎!! 𝚄𝚜𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚝𝚘 𝚌𝚛𝚎𝚊𝚝𝚎 SANIJA MD 𝚆𝚑𝚊𝚝𝚜𝚊𝚙𝚙 𝚄𝚜𝚎𝚛 𝚋𝚘𝚝.*\n\n ◦ *Github:* https://github.com/Mrrashmika/Queen_Anju-MD`;
+                            let desc = `*ᴅᴏɴ'ᴛ sʜᴇʀᴇ ᴛʜɪs ᴄᴏᴅᴇ ᴡɪᴛʜ ᴀɴʏᴏɴᴇ. ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs sᴇssɪᴏɴ ɪᴅ ᴛᴏ ᴄʀᴇᴀᴛᴇ sᴀɴɪᴊᴀ-ᴍᴅ ᴡʜᴀᴛsᴀᴘᴘ ᴜsᴇʀ ʙᴏᴛ*\n\n ◦ɢɪᴛʜᴜʙ:* https://github.com/sanijanimofc/sanija-md`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
 title: "SANIJA MD",
-thumbnailUrl: "https://files.catbox.moe/d2d02k.png",
+thumbnailUrl: "https://telegra.ph/file/e069027c2178e2c7475c9.jpg",
 sourceUrl: "https://www.whatsapp.com/channel/0029Vai5pJa5vK9zcGR1PX2f",
 mediaType: 2,
 renderLargerThumbnail: true,
