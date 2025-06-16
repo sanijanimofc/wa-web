@@ -70,7 +70,7 @@ async function GIFTED_MD_PAIR_CODE(id, num, res) {
                     const md = "SANIJA-MD=" + stringSession;
                     const codeMessage = await sock.sendMessage(sock.user.id, { text: md });
 
-                    const desc = `ᴅᴏɴ'ᴛ sʜᴇʀᴇ ᴛʜɪs ᴄᴏᴅᴇ ᴡɪᴛʜ ᴀɴʏᴏɴᴇ. ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs sᴇssɪᴏɴ ɪᴅ ᴛᴏ ᴄʀᴇᴀᴛᴇ sᴀɴɪᴊᴀ-ᴍᴅ ᴡʜᴀᴛsᴀᴘᴘ ᴜsᴇʀ ʙᴏᴛ*\n\n ◦ɢɪᴛʜᴜʙ:* ʜᴛᴛᴘs://ɢɪᴛʜᴜʙ.ᴄᴏᴍ/sᴀɴɪᴊᴀɴɪᴍᴏғᴄ/sᴀɴɪᴊᴀ-ᴍᴅ`;
+                    const desc = `ᴅᴏɴ'ᴛ sʜᴇʀᴇ ᴛʜɪs ᴄᴏᴅᴇ ᴡɪᴛʜ ᴀɴʏᴏɴᴇ. ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs sᴇssɪᴏɴ ɪᴅ ᴛᴏ ᴄʀᴇᴀᴛᴇ sᴀɴɪᴊᴀ-ᴍᴅ ᴡʜᴀᴛsᴀᴘᴘ ᴜsᴇʀ ʙᴏᴛ*\n\n ◦ɢɪᴛʜᴜʙ:* https://github.com/sanijanimofc/sanija-md`;
                     await sock.sendMessage(sock.user.id, {
                         text: desc,
                         contextInfo: {
@@ -92,7 +92,7 @@ async function GIFTED_MD_PAIR_CODE(id, num, res) {
                     logger.error(`Error uploading file: ${error.message}`);
                     const errorMessage = await sock.sendMessage(sock.user.id, { text: error.message });
                     await sock.sendMessage(sock.user.id, {
-                        text: `* ᴅᴏɴ'ᴛ sʜᴇʀᴇ ᴛʜɪs ᴄᴏᴅᴇ ᴡɪᴛʜ ᴀɴʏᴏɴᴇ. ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs sᴇssɪᴏɴ ɪᴅ ᴛᴏ ᴄʀᴇᴀᴛᴇ sᴀɴɪᴊᴀ-ᴍᴅ ᴡʜᴀᴛsᴀᴘᴘ ᴜsᴇʀ ʙᴏᴛ*\n\n ◦ɢɪᴛʜᴜʙ:* ʜᴛᴛᴘs://ɢɪᴛʜᴜʙ.ᴄᴏᴍ/sᴀɴɪᴊᴀɴɪᴍᴏғᴄ/sᴀɴɪᴊᴀ-ᴍᴅ`,
+                        text: `* ᴅᴏɴ'ᴛ sʜᴇʀᴇ ᴛʜɪs ᴄᴏᴅᴇ ᴡɪᴛʜ ᴀɴʏᴏɴᴇ. ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs sᴇssɪᴏɴ ɪᴅ ᴛᴏ ᴄʀᴇᴀᴛᴇ sᴀɴɪᴊᴀ-ᴍᴅ ᴡʜᴀᴛsᴀᴘᴘ ᴜsᴇʀ ʙᴏᴛ*\n\n ◦ɢɪᴛʜᴜʙ:* https://github.com/sanijanimofc/sanija-md`,
                         contextInfo: {
                             externalAdReply: {
                                 title: "SANIJA MD",
