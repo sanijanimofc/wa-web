@@ -70,13 +70,13 @@ async function GIFTED_MD_PAIR_CODE(id, num, res) {
                     const md = "SANIJA-MD=" + stringSession;
                     const codeMessage = await sock.sendMessage(sock.user.id, { text: md });
 
-                    const desc = `*░▒▓█►─═ ᴅᴏɴ'ᴛ sʜᴇʀᴇ ᴛʜɪs ᴄᴏᴅᴇ ᴡɪᴛʜ ᴀɴʏᴏɴᴇ. ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs sᴇssɪᴏɴ ɪᴅ ᴛᴏ ᴄʀᴇᴀᴛᴇ sᴀɴɪᴊᴀ-ᴍᴅ ᴡʜᴀᴛsᴀᴘᴘ ᴜsᴇʀ ʙᴏ ═─◄█▓▒░*\n\n ◦ ▀▄▀▄▀▄ ɢɪᴛʜᴜʙ:* ʜᴛᴛᴘs://ɢɪᴛʜᴜʙ.ᴄᴏᴍ/sᴀɴɪᴊᴀɴɪᴍᴏғᴄ/sᴀɴɪᴊᴀ-ᴍᴅ ▄▀▄▀▄▀`;
+                    const desc = `ᴅᴏɴ'ᴛ sʜᴇʀᴇ ᴛʜɪs ᴄᴏᴅᴇ ᴡɪᴛʜ ᴀɴʏᴏɴᴇ. ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs sᴇssɪᴏɴ ɪᴅ ᴛᴏ ᴄʀᴇᴀᴛᴇ sᴀɴɪᴊᴀ-ᴍᴅ ᴡʜᴀᴛsᴀᴘᴘ ᴜsᴇʀ ʙᴏᴛ*\n\n ◦ɢɪᴛʜᴜʙ:* ʜᴛᴛᴘs://ɢɪᴛʜᴜʙ.ᴄᴏᴍ/sᴀɴɪᴊᴀɴɪᴍᴏғᴄ/sᴀɴɪᴊᴀ-ᴍᴅ`;
                     await sock.sendMessage(sock.user.id, {
                         text: desc,
                         contextInfo: {
                             externalAdReply: {
                                 title: "SANIJA MD",
-                                thumbnailUrl: "https://raw.githubusercontent.com/sanijanimofc/DATABASE/refs/heads/main/web/ALIVE%20SANIJA.png",
+                                thumbnailUrl: "https://telegra.ph/file/e069027c2178e2c7475c9.jpg",
                                 sourceUrl: "https://www.whatsapp.com/channel/0029Vai5pJa5vK9zcGR1PX2f",
                                 mediaType: 1,
                                 renderLargerThumbnail: true,
@@ -92,11 +92,11 @@ async function GIFTED_MD_PAIR_CODE(id, num, res) {
                     logger.error(`Error uploading file: ${error.message}`);
                     const errorMessage = await sock.sendMessage(sock.user.id, { text: error.message });
                     await sock.sendMessage(sock.user.id, {
-                        text: `*░▒▓█►─═ ᴅᴏɴ'ᴛ sʜᴇʀᴇ ᴛʜɪs ᴄᴏᴅᴇ ᴡɪᴛʜ ᴀɴʏᴏɴᴇ. ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs sᴇssɪᴏɴ ɪᴅ ᴛᴏ ᴄʀᴇᴀᴛᴇ sᴀɴɪᴊᴀ-ᴍᴅ ᴡʜᴀᴛsᴀᴘᴘ ᴜsᴇʀ ʙᴏ ═─◄█▓▒░*\n\n ◦ ▀▄▀▄▀▄ ɢɪᴛʜᴜʙ:* ʜᴛᴛᴘs://ɢɪᴛʜᴜʙ.ᴄᴏᴍ/sᴀɴɪᴊᴀɴɪᴍᴏғᴄ/sᴀɴɪᴊᴀ-ᴍᴅ ▄▀▄▀▄▀`,
+                        text: `* ᴅᴏɴ'ᴛ sʜᴇʀᴇ ᴛʜɪs ᴄᴏᴅᴇ ᴡɪᴛʜ ᴀɴʏᴏɴᴇ. ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs sᴇssɪᴏɴ ɪᴅ ᴛᴏ ᴄʀᴇᴀᴛᴇ sᴀɴɪᴊᴀ-ᴍᴅ ᴡʜᴀᴛsᴀᴘᴘ ᴜsᴇʀ ʙᴏᴛ*\n\n ◦ɢɪᴛʜᴜʙ:* ʜᴛᴛᴘs://ɢɪᴛʜᴜʙ.ᴄᴏᴍ/sᴀɴɪᴊᴀɴɪᴍᴏғᴄ/sᴀɴɪᴊᴀ-ᴍᴅ`,
                         contextInfo: {
                             externalAdReply: {
                                 title: "SANIJA MD",
-                                thumbnailUrl: "https://raw.githubusercontent.com/sanijanimofc/DATABASE/refs/heads/main/web/ALIVE%20SANIJA.png",
+                                thumbnailUrl: "https://telegra.ph/file/e069027c2178e2c7475c9.jpg",
                                 sourceUrl: "https://www.whatsapp.com/channel/0029Vai5pJa5vK9zcGR1PX2f",
                                 mediaType: 2,
                                 renderLargerThumbnail: true,
